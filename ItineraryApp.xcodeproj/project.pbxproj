@@ -11,6 +11,24 @@
 		93F6D9E52BA0C8E4002FE335 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F6D9E42BA0C8E4002FE335 /* ContentView.swift */; };
 		93F6D9E72BA0C8E5002FE335 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93F6D9E62BA0C8E5002FE335 /* Assets.xcassets */; };
 		93F6D9EA2BA0C8E5002FE335 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93F6D9E92BA0C8E5002FE335 /* Preview Assets.xcassets */; };
+		93F6D9F22BA0C99E002FE335 /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F6D9F12BA0C99E002FE335 /* Trip.swift */; };
+		93F6D9F42BA0CAAE002FE335 /* TripDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F6D9F32BA0CAAE002FE335 /* TripDay.swift */; };
+		93F6D9F62BA0CAD9002FE335 /* DaySight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F6D9F52BA0CAD9002FE335 /* DaySight.swift */; };
+		93F6D9F82BA0CD56002FE335 /* TripTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F6D9F72BA0CD56002FE335 /* TripTask.swift */; };
+		93F6D9FB2BA0E40F002FE335 /* TripTestUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F6D9FA2BA0E40F002FE335 /* TripTestUIView.swift */; };
+		93F6D9FE2BA10517002FE335 /* TripDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F6D9FD2BA10517002FE335 /* TripDetailsView.swift */; };
+		93F6DA002BA10525002FE335 /* AddTripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F6D9FF2BA10525002FE335 /* AddTripView.swift */; };
+		93F6DA022BA10531002FE335 /* EditTripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F6DA012BA10531002FE335 /* EditTripView.swift */; };
+		93F6DA052BA17DF0002FE335 /* CheckListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F6DA042BA17DF0002FE335 /* CheckListView.swift */; };
+		93F6DA072BA17DFC002FE335 /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F6DA062BA17DFC002FE335 /* AddTaskView.swift */; };
+		93F6DA092BA17E07002FE335 /* EditTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F6DA082BA17E07002FE335 /* EditTaskView.swift */; };
+		93F6DA0C2BA184A5002FE335 /* DayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F6DA0B2BA184A5002FE335 /* DayView.swift */; };
+		93F6DA0E2BA184B1002FE335 /* AddSightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F6DA0D2BA184B1002FE335 /* AddSightView.swift */; };
+		93F6DA102BA184BC002FE335 /* EditSightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F6DA0F2BA184BC002FE335 /* EditSightView.swift */; };
+		93F6DA162BA2DE42002FE335 /* AddDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F6DA152BA2DE42002FE335 /* AddDayView.swift */; };
+		93F6DA182BA2DE4E002FE335 /* EditDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F6DA172BA2DE4E002FE335 /* EditDayView.swift */; };
+		93F6DA1A2BA2DE77002FE335 /* DayListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F6DA192BA2DE77002FE335 /* DayListView.swift */; };
+		93F6DA1C2BA2DE84002FE335 /* SightListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F6DA1B2BA2DE84002FE335 /* SightListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +37,24 @@
 		93F6D9E42BA0C8E4002FE335 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		93F6D9E62BA0C8E5002FE335 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93F6D9E92BA0C8E5002FE335 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		93F6D9F12BA0C99E002FE335 /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
+		93F6D9F32BA0CAAE002FE335 /* TripDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDay.swift; sourceTree = "<group>"; };
+		93F6D9F52BA0CAD9002FE335 /* DaySight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaySight.swift; sourceTree = "<group>"; };
+		93F6D9F72BA0CD56002FE335 /* TripTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripTask.swift; sourceTree = "<group>"; };
+		93F6D9FA2BA0E40F002FE335 /* TripTestUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripTestUIView.swift; sourceTree = "<group>"; };
+		93F6D9FD2BA10517002FE335 /* TripDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailsView.swift; sourceTree = "<group>"; };
+		93F6D9FF2BA10525002FE335 /* AddTripView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTripView.swift; sourceTree = "<group>"; };
+		93F6DA012BA10531002FE335 /* EditTripView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTripView.swift; sourceTree = "<group>"; };
+		93F6DA042BA17DF0002FE335 /* CheckListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListView.swift; sourceTree = "<group>"; };
+		93F6DA062BA17DFC002FE335 /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
+		93F6DA082BA17E07002FE335 /* EditTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTaskView.swift; sourceTree = "<group>"; };
+		93F6DA0B2BA184A5002FE335 /* DayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayView.swift; sourceTree = "<group>"; };
+		93F6DA0D2BA184B1002FE335 /* AddSightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSightView.swift; sourceTree = "<group>"; };
+		93F6DA0F2BA184BC002FE335 /* EditSightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditSightView.swift; sourceTree = "<group>"; };
+		93F6DA152BA2DE42002FE335 /* AddDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDayView.swift; sourceTree = "<group>"; };
+		93F6DA172BA2DE4E002FE335 /* EditDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditDayView.swift; sourceTree = "<group>"; };
+		93F6DA192BA2DE77002FE335 /* DayListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayListView.swift; sourceTree = "<group>"; };
+		93F6DA1B2BA2DE84002FE335 /* SightListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SightListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +87,13 @@
 		93F6D9E12BA0C8E4002FE335 /* ItineraryApp */ = {
 			isa = PBXGroup;
 			children = (
+				93F6D9F92BA0E3FA002FE335 /* TestViews */,
+				93F6D9F02BA0C992002FE335 /* Model */,
 				93F6D9E22BA0C8E4002FE335 /* ItineraryAppApp.swift */,
 				93F6D9E42BA0C8E4002FE335 /* ContentView.swift */,
+				93F6DA032BA17DC9002FE335 /* Itinerary List */,
+				93F6DA0A2BA18492002FE335 /* DayView */,
+				93F6D9FC2BA104F6002FE335 /* Main Screen */,
 				93F6D9E62BA0C8E5002FE335 /* Assets.xcassets */,
 				93F6D9E82BA0C8E5002FE335 /* Preview Content */,
 			);
@@ -65,6 +106,75 @@
 				93F6D9E92BA0C8E5002FE335 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		93F6D9F02BA0C992002FE335 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				93F6D9F12BA0C99E002FE335 /* Trip.swift */,
+				93F6D9F32BA0CAAE002FE335 /* TripDay.swift */,
+				93F6D9F52BA0CAD9002FE335 /* DaySight.swift */,
+				93F6D9F72BA0CD56002FE335 /* TripTask.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		93F6D9F92BA0E3FA002FE335 /* TestViews */ = {
+			isa = PBXGroup;
+			children = (
+				93F6D9FA2BA0E40F002FE335 /* TripTestUIView.swift */,
+			);
+			path = TestViews;
+			sourceTree = "<group>";
+		};
+		93F6D9FC2BA104F6002FE335 /* Main Screen */ = {
+			isa = PBXGroup;
+			children = (
+				93F6D9FD2BA10517002FE335 /* TripDetailsView.swift */,
+				93F6D9FF2BA10525002FE335 /* AddTripView.swift */,
+				93F6DA012BA10531002FE335 /* EditTripView.swift */,
+			);
+			path = "Main Screen";
+			sourceTree = "<group>";
+		};
+		93F6DA032BA17DC9002FE335 /* Itinerary List */ = {
+			isa = PBXGroup;
+			children = (
+				93F6DA042BA17DF0002FE335 /* CheckListView.swift */,
+				93F6DA062BA17DFC002FE335 /* AddTaskView.swift */,
+				93F6DA082BA17E07002FE335 /* EditTaskView.swift */,
+			);
+			path = "Itinerary List";
+			sourceTree = "<group>";
+		};
+		93F6DA0A2BA18492002FE335 /* DayView */ = {
+			isa = PBXGroup;
+			children = (
+				93F6DA0B2BA184A5002FE335 /* DayView.swift */,
+				93F6DA1E2BA2DE8D002FE335 /* Sight */,
+				93F6DA1D2BA2DE88002FE335 /* Day */,
+			);
+			path = DayView;
+			sourceTree = "<group>";
+		};
+		93F6DA1D2BA2DE88002FE335 /* Day */ = {
+			isa = PBXGroup;
+			children = (
+				93F6DA152BA2DE42002FE335 /* AddDayView.swift */,
+				93F6DA172BA2DE4E002FE335 /* EditDayView.swift */,
+				93F6DA192BA2DE77002FE335 /* DayListView.swift */,
+			);
+			path = Day;
+			sourceTree = "<group>";
+		};
+		93F6DA1E2BA2DE8D002FE335 /* Sight */ = {
+			isa = PBXGroup;
+			children = (
+				93F6DA0D2BA184B1002FE335 /* AddSightView.swift */,
+				93F6DA0F2BA184BC002FE335 /* EditSightView.swift */,
+				93F6DA1B2BA2DE84002FE335 /* SightListView.swift */,
+			);
+			path = Sight;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +247,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93F6D9F22BA0C99E002FE335 /* Trip.swift in Sources */,
+				93F6DA092BA17E07002FE335 /* EditTaskView.swift in Sources */,
+				93F6DA1A2BA2DE77002FE335 /* DayListView.swift in Sources */,
+				93F6D9F82BA0CD56002FE335 /* TripTask.swift in Sources */,
+				93F6DA1C2BA2DE84002FE335 /* SightListView.swift in Sources */,
+				93F6DA002BA10525002FE335 /* AddTripView.swift in Sources */,
+				93F6DA072BA17DFC002FE335 /* AddTaskView.swift in Sources */,
+				93F6DA0E2BA184B1002FE335 /* AddSightView.swift in Sources */,
+				93F6DA022BA10531002FE335 /* EditTripView.swift in Sources */,
+				93F6DA052BA17DF0002FE335 /* CheckListView.swift in Sources */,
+				93F6DA0C2BA184A5002FE335 /* DayView.swift in Sources */,
+				93F6D9F62BA0CAD9002FE335 /* DaySight.swift in Sources */,
+				93F6D9FE2BA10517002FE335 /* TripDetailsView.swift in Sources */,
+				93F6D9F42BA0CAAE002FE335 /* TripDay.swift in Sources */,
 				93F6D9E52BA0C8E4002FE335 /* ContentView.swift in Sources */,
+				93F6DA162BA2DE42002FE335 /* AddDayView.swift in Sources */,
+				93F6D9FB2BA0E40F002FE335 /* TripTestUIView.swift in Sources */,
+				93F6DA102BA184BC002FE335 /* EditSightView.swift in Sources */,
 				93F6D9E32BA0C8E4002FE335 /* ItineraryAppApp.swift in Sources */,
+				93F6DA182BA2DE4E002FE335 /* EditDayView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
