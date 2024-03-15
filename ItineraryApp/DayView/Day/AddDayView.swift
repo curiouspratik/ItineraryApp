@@ -15,14 +15,27 @@ struct AddDayView: View {
     @State var dayStartTime: Date = .now
     @Environment(\.dismiss) private var dismiss
     var body: some View {
-            VStack {
+        ZStack {
+            BackgroundView()
                 Form{
                     Stepper("Enter Day Num: \(dayNum)", value: $dayNum)
+                        .font(.custom("Chalkboard SE", size: 20))
+                        .listRowBackground(Color(red: 1.0, green: 0.894, blue: 0.882))
+                        .foregroundStyle(Color(red: 0.533, green: 0.024, blue: 0.808))
                     DatePicker("Start Time:", selection: $dayStartTime)
+                        .font(.custom("Chalkboard SE", size: 20))
+                        .listRowBackground(Color(red: 1.0, green: 0.894, blue: 0.882))
+                        .foregroundStyle(Color(red: 0.533, green: 0.024, blue: 0.808))
                 }
+                .scrollContentBackground(.hidden)
             }
-            .navigationTitle("Add New Day")
+            .navigationBarTitleDisplayMode(.inline)
             .toolbar{
+                ToolbarItem(placement: .principal) {
+                            Text("Add New Day")
+                              .font(.custom("AmericanTypewriter", size: 26))
+                              .foregroundColor(Color(red: 0.533, green: 0.024, blue: 0.808))
+                            }
                 ToolbarItem(placement: .topBarTrailing){
                     Button {
                         saveTrip()

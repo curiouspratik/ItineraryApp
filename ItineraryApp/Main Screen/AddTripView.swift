@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SwiftData
 
 struct AddTripView: View {
     @State var title: String = ""
@@ -15,15 +16,31 @@ struct AddTripView: View {
     @Environment(\.modelContext) var modelContext
     
     var body: some View {
-            VStack {
+            ZStack {
+                BackgroundView()
                 Form{
                     TextField("Title", text: $title)
+                        .font(.custom("Chalkboard SE", size: 26))
+                        .listRowBackground(Color(red: 1.0, green: 0.894, blue: 0.882))
+                        .foregroundStyle(Color(red: 0.533, green: 0.024, blue: 0.808))
                     DatePicker("Start Date", selection: $startDate)
+                        .font(.custom("Chalkboard SE", size: 20))
+                        .listRowBackground(Color(red: 1.0, green: 0.894, blue: 0.882))
+                        .foregroundStyle(Color(red: 0.533, green: 0.024, blue: 0.808))
                     DatePicker("End Date", selection: $endDate)
+                        .font(.custom("Chalkboard SE", size: 20))
+                        .listRowBackground(Color(red: 1.0, green: 0.894, blue: 0.882))
+                        .foregroundStyle(Color(red: 0.533, green: 0.024, blue: 0.808))
                 }
+                .scrollContentBackground(.hidden)
             }
-            .navigationTitle("Add New Trip")
+            .navigationBarTitleDisplayMode(.inline)
             .toolbar{
+                ToolbarItem(placement: .principal) {
+                            Text("Add New Trip")
+                              .font(.custom("AmericanTypewriter", size: 26))
+                              .foregroundColor(Color(red: 0.533, green: 0.024, blue: 0.808))
+                            }
                 ToolbarItem(placement: .topBarTrailing){
                     Button {
                         saveTrip()
