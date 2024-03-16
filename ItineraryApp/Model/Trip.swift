@@ -21,6 +21,7 @@ extension Calendar {
 
 @Model
 final class Trip {
+    /// var UUID : ios property, through which it attaches a unique id to each object - Old Style
     var tripTitle: String
     var tripStartDate: Date
     var tripEndDate: Date
